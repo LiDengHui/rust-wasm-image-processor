@@ -1,2 +1,7 @@
 /target
+pkg/
+dist/
+node_modules
 .idea/
+package-lock.json
+Cargo.lock

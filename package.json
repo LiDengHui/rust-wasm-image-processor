@@ -1,0 +1,24 @@
+{
+  "name": "rust-wasm-image-processor",
+  "version": "1.0.0",
+  "description": "```shell",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "http-server .",
+    "build": "mkdir -p dist && cp index.html ./dist/ && cp worker.js ./dist/ && cp -r pkg ./dist/",
+    "test": "dhlx gh-pages -i dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiDengHui/rust-wasm-image-processor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiDengHui/rust-wasm-image-processor/issues"
+  },
+  "homepage": "https://github.com/LiDengHui/rust-wasm-image-processor#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
