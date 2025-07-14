@@ -4,7 +4,7 @@ mod image_processor;
 use wasm_bindgen::prelude::*;
 use js_sys::{Uint8Array, Promise, Function, Reflect};
 use wasm_bindgen_futures::JsFuture;
-use web_sys::{Request, RequestInit, Response, console};
+use web_sys::{Request, RequestInit, Response};
 use image_processor::{ImageProcessor, ImageError};
 // 异步初始化 wasm_bindgen（适用于现代浏览器）
 #[wasm_bindgen(start)]
