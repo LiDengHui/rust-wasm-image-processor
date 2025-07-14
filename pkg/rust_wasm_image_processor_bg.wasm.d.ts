@@ -1,0 +1,31 @@
+/* tslint:disable */
+/* eslint-disable */
+export const memory: WebAssembly.Memory;
+export const init: () => void;
+export const process_image: (a: number, b: number) => [number, number, number, number];
+export const processWithOptions: (a: number, b: number, c: number) => [number, number, number, number];
+export const fetchAndProcess: (a: number, b: number, c: number) => any;
+export const __wbg_imageprocessorwrapper_free: (a: number, b: number) => void;
+export const imageprocessorwrapper_new: (a: number, b: number) => [number, number, number];
+export const imageprocessorwrapper_applyGrayscale: (a: number) => [number, number];
+export const imageprocessorwrapper_getImageData: (a: number) => [number, number, number, number];
+export const __wbg_processoptions_free: (a: number, b: number) => void;
+export const processoptions_new: () => number;
+export const processoptions_set_grayscale: (a: number, b: any) => void;
+export const processoptions_set_sepia: (a: number, b: any) => void;
+export const processoptions_set_invert: (a: number, b: any) => void;
+export const processoptions_grayscale: (a: number) => any;
+export const processoptions_sepia: (a: number) => any;
+export const processoptions_invert: (a: number) => any;
+export const async_process: (a: number, b: number, c: number) => any;
+export const __wbindgen_exn_store: (a: number) => void;
+export const __externref_table_alloc: () => number;
+export const __wbindgen_export_2: WebAssembly.Table;
+export const __wbindgen_free: (a: number, b: number, c: number) => void;
+export const __wbindgen_malloc: (a: number, b: number) => number;
+export const __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
+export const __wbindgen_export_6: WebAssembly.Table;
+export const __externref_table_dealloc: (a: number) => void;
+export const closure193_externref_shim: (a: number, b: number, c: any) => void;
+export const closure215_externref_shim: (a: number, b: number, c: any, d: any) => void;
+export const __wbindgen_start: () => void;

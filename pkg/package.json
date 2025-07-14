@@ -1,0 +1,15 @@
+{
+  "name": "rust-wasm-image-processor",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rust_wasm_image_processor_bg.wasm",
+    "rust_wasm_image_processor.js",
+    "rust_wasm_image_processor.d.ts"
+  ],
+  "main": "rust_wasm_image_processor.js",
+  "types": "rust_wasm_image_processor.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
